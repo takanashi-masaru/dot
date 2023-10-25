@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>コードレビュー</title>
+		<snippets>
+			<snippet>
+				<title>must</title>
+				<content>![badge](https://img.shields.io/badge/review-must-red.svg)
+ユーザーに影響出るから必ず修正してほしい
+　┗『~対応しないとダメ』のような要請
+
+リリース前に必ず対応してほしい。
+対応しないと承認できないよ！</content>
+			</snippet>
+			<snippet>
+				<title>should</title>
+				<content>![badge](https://img.shields.io/badge/review-should-orange.svg)
+ユーザーに影響ないが、特別な理由がない限り修正してほしい
+┗『~してください』のような要望
+※プロダクト目線でいい方向に動いているのか
+
+一旦は承認できるけど、リリース後対応で問題ないから必ず対応してね！</content>
+			</snippet>
+			<snippet>
+				<title>nits</title>
+				<content>![badge](https://img.shields.io/badge/review-nits-green.svg)
+インデントやタイポなどの些細な指摘
+※開発者目線でいい方向で動いているのか
+※修正するかは、レビュイーに委ねる</content>
+			</snippet>
+			<snippet>
+				<title>imo</title>
+				<content>![badge](https://img.shields.io/badge/review-imo-yellow.svg)
+自分の意見や提案、好み。自分ならこう書くけどどう思う？
+　┗『こんなのもありますが、どうですか？』のような提案
+ ※修正するかは、レビュイーに委ねる</content>
+			</snippet>
+			<snippet>
+				<title>ask</title>
+				<content>![badge](https://img.shields.io/badge/review-ask-blue.svg)
+コードの意味や背景、意図がわからないから聞いてみたい
+　┗『〜どういうこと？』のような質問</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
