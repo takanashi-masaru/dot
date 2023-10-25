@@ -1,3 +1,5 @@
+# @see https://dev.macha795.com/zsh-prompt-customize/
+
 ########################
 #                      #
 #  ADD NASSY SETTINGS  #
