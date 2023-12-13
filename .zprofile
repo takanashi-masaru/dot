@@ -219,3 +219,10 @@ export GO111MODULE=on
 export GOROOT=`go env GOROOT`
 export GOPATH=`go env GOPATH`
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+#########
+# pyenv #
+#########
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
