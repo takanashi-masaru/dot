@@ -204,9 +204,8 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 eval "$(nodenv init -)"
 export NPM_AUTH_TOKEN="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"
 eval "$(direnv hook zsh)"
-export PATH="/usr/local/opt/php@7.4/bin:$PATH"
-export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
-
+export LDFLAGS="-L/usr/local/opt/php@8.2/lib"
+export CPPFLAGS="-I/usr/local/opt/php@8.2/include"
 
 ###############
 # go settings #
@@ -219,3 +218,16 @@ export GO111MODULE=on
 export GOROOT=`go env GOROOT`
 export GOPATH=`go env GOPATH`
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+#########
+# pyenv #
+#########
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+##########
+# gcloud #
+##########
+source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
